@@ -1,8 +1,9 @@
-# Greenvi 
+# Greenvi
 
-In this repository we build API using hapi framework, this contains endpoints of users, products, and stores.  
+In this repository we build API using hapi framework, this contains endpoints of users, products, and stores.
 
 **Dependencies**
+
 - "@hapi/cookie": "^12.0.1"
 - "@hapi/hapi": "^21.3.2"
 - "@hapi/joi": "^17.1.1"
@@ -12,13 +13,17 @@ In this repository we build API using hapi framework, this contains endpoints of
 - "sequelize": "^6.35.1"
 
 **Database Connection**
+
 - you can go to "db-config/connect.js" then input your database name, root, password, host, and dialect.
-  
+
 **Database Tables**
+
 - you can go to "models/...".
-  
-**Endoints**
+
+**Endpoints**
+
 - you can go to "src/routes.js".
 
 **Logic/Handler**
+
 - you can go to "src/handlers-..." all of that are the logic/handler for users, products, and stores.
